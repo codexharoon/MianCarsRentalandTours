@@ -1,0 +1,126 @@
+body{
+    margin: 0;
+    padding: 0;
+
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+
+.nav-1{
+    display: flex;
+    align-items: center;
+    padding: 10px;
+}
+.logo{
+    flex: 1;
+    width: 100px;
+    height: 100px;
+    margin-right: 30px;
+}
+.contact-info{
+    flex: 2;
+    width: 200px;
+    word-wrap: break-word;
+    
+}
+.contact-info img{
+    height: 20px;
+    vertical-align: bottom;
+    margin-right: 10px;
+}
+.contact-info p{
+    margin: 0;
+}
+.social-links{
+    width: 140px;
+    display: flex;
+    justify-content: space-evenly;
+    flex-shrink: 0;
+}
+.social-links img{
+    height: 25px;
+}
+
+
+
+
+
+/* nav 2 starts here  */
+
+.nav-2{
+    background-color: #1B98F5;
+    color: white;
+    padding: 15px;
+}
+.menue-list{
+    width: 600px;
+    display: flex;
+    justify-content: space-between;
+}
+.menue-btn{
+    display: none;
+}
+
+@media (max-width: 630px){
+    .menue-list{
+        display: none;
+    }
+    .menue-btn{
+        display: flex;
+        align-items: center;
+    }
+    .menue-btn img{
+        height: 30px;
+        cursor: pointer;
+    }
+    .menue-btn p{
+        margin-left: 10px;
+    }
+    .nav-2{
+        padding: 2px;
+    }
+}
+
+
+
+
+
+
+.sidebar-menu{
+    position: fixed;
+    background-color: #1B98F5;
+    top: 130px;
+    bottom: 200px;
+    left: 0;
+    right: 0;
+
+    display: none;
+}
+.close-btn{
+    color: white;
+    position: absolute;
+    margin-right: 15px;
+    right: 0;
+    cursor: pointer;
+
+}
+
+.sidebar-menu-list{
+    margin: 20px;
+    color: white;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.show-sidebar-menu{
+    display: flex;
+}
+.hide-sidebar-menu{
+    display: none;
+}
+
+
+
+
+  
