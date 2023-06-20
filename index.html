@@ -10,7 +10,9 @@
     <title>Mian Cars Rental and Tours</title>
     <link rel="shortcut icon" href="/IMGs/logo.jpg" type="image/x-icon">
 
+    <link rel="stylesheet" href="styles/general.css">
     <link rel="stylesheet" href="styles/header.css">
+    <link rel="stylesheet" href="styles/imageSlider.css">
 </head>
 <body>
 
@@ -20,12 +22,14 @@
         <nav id="navigation-1" class="nav-1">
 
                 <div class="logo">
+                    <a href="/">
                     <img class="logo" src="/IMGs/logo.jpg" alt="Mian Cars Rental and Tours Logo" height="480px" width="480px">
+                    </a>
                 </div>
 
                 <div class="contact-info">
-                    <p><img src="/IMGs/phone.png">0300 4218333</p>
-                    <p><img src="/IMGs/mail.webp">mparaza00@gmail.com</p>
+                    <p><img src="/IMGs/phone.png"> <a href="tel:0300 4218333">0300 4218333</a> </p>
+                    <p><img src="/IMGs/mail.webp"> <a href="mailto:mparaza00@gmail.com">mparaza00@gmail.com</a> </p>
                 </div>
 
                 <div class="social-links">
@@ -38,17 +42,29 @@
 
         <nav id="navigation-2" class="nav-2">
 
-            <div class="menue-list">
-                <div>Home</div> 
-                <div>Cars Rental</div> 
-                <div>Tours</div> 
-                <div>Services</div> 
-                <div>Contact</div> 
-                <div>About</div> 
+            <div class="menu-list">
+                <div class="menu">
+                    <a href="/"> Home </a>
+                </div> 
+                <div class="menu">
+                    <a href="/"> Cars Rental </a>
+                </div> 
+                <div class="menu">
+                    <a href="/"> Tours </a>
+                </div> 
+                <div class="menu">
+                    <a href="/"> Services </a>
+                </div> 
+                <div class="menu">
+                    <a href="/"> Contact </a>
+                </div> 
+                <div class="menu">
+                    <a href="/"> About </a>
+                </div> 
             </div>
 
-            <div class="menue-btn js-menu-btn">
-                <img class="js-menue-btn" src="/IMGs/3lines.jpg">
+            <div class="menu-btn js-menu-btn">
+                <img class="js-menu-btn" src="/IMGs/3lines.jpg">
                 <p>Menu</p> 
             </div>
 
@@ -59,18 +75,55 @@
             <div class="close-btn js-close-btn">X</div>
 
             <div class="sidebar-menu-list">
-                <div>Home</div> 
-                <div>Cars Rental</div> 
-                <div>Tours</div> 
-                <div>Services</div> 
-                <div>Contact</div> 
-                <div>About</div> 
+                <div class="menu">
+                    <a href="/"> Home </a>
+                </div> 
+                <div class="menu">
+                    <a href="/"> Cars Rental </a>
+                </div> 
+                <div class="menu">
+                    <a href="/"> Tours </a>
+                </div> 
+                <div class="menu">
+                    <a href="/"> Services </a>
+                </div> 
+                <div class="menu">
+                    <a href="/"> Contact </a>
+                </div> 
+                <div class="menu">
+                    <a href="/"> About </a>
+                </div>  
             </div>
         </div>
 
     </header>
 
 
+    <main>
+
+        <section>
+            <div class="image-slider">
+                <div class="image-container">
+                    <img class="slides active" src="/IMGs/Cars/1.png" > 
+                    <img class="slides" src="/IMGs/Cars/2.jpg" > 
+                    <img class="slides" src="/IMGs/Cars/3.webp" > 
+                    <img class="slides" src="/IMGs/Cars/4.jpg" > 
+                    <img class="slides" src="/IMGs/Cars/5.jpg" > 
+                    <img class="slides" src="/IMGs/Cars/6.jpg" > 
+                    <img class="slides" src="/IMGs/Cars/7.jpg" > 
+                    <img class="slides" src="/IMGs/Cars/8.jpg" > 
+                    <img class="slides" src="/IMGs/Cars/9.jpg" > 
+
+                    <div id="next-btn" class="slider-btn">&gt;</div>
+                    <div id="prv-btn" class="slider-btn">&lt;</div>
+                </div>
+            </div>
+        </section>
+
+    </main>
+
+
     <script src="/scripts/header.js"></script>
+    <script src="/scripts/imageSlider.js"></script>
 </body>
 </html>

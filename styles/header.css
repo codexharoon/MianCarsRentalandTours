@@ -1,12 +1,14 @@
-body{
-    margin: 0;
-    padding: 0;
 
-    font-family: Arial, Helvetica, sans-serif;
-}
-
+/* nav1 starts here  */
 
 .nav-1{
+    z-index: 100;
+    position: fixed;
+    left: 0;
+    right: 0;
+    top: 0;
+    height: 80px;
+    background-color: white;
     display: flex;
     align-items: center;
     padding: 10px;
@@ -16,6 +18,9 @@ body{
     width: 100px;
     height: 100px;
     margin-right: 30px;
+}
+.logo:hover{
+    cursor: pointer;
 }
 .contact-info{
     flex: 2;
@@ -31,6 +36,10 @@ body{
 .contact-info p{
     margin: 0;
 }
+.contact-info a{
+    text-decoration: none;
+    color: black;
+}
 .social-links{
     width: 140px;
     display: flex;
@@ -39,6 +48,10 @@ body{
 }
 .social-links img{
     height: 25px;
+    padding: 5px;
+}
+.social-links img:hover{
+    box-shadow: 0px 1px 0.8px rgba(0,0,0,0.2);
 }
 
 
@@ -51,46 +64,69 @@ body{
     background-color: #1B98F5;
     color: white;
     padding: 15px;
+
+    z-index: 100;
+    position: fixed;
+    left: 0;
+    right: 0;
+    top: 100px;
 }
-.menue-list{
+.menu-list{
     width: 600px;
     display: flex;
     justify-content: space-between;
 }
-.menue-btn{
+.menu a {
+    text-decoration: none;
+    color: white;
+}
+.menu{
+    padding: 10px;
+    cursor: pointer;
+    transition: background-color 0.15s;
+}
+.menu:hover{
+    background-color: #1b91eb;
+}
+.menu:active{
+    opacity: 0.8;
+}
+.menu-btn{
     display: none;
 }
 
 @media (max-width: 630px){
-    .menue-list{
+    .menu-list{
         display: none;
     }
-    .menue-btn{
+    .menu-btn{
         display: flex;
         align-items: center;
     }
-    .menue-btn img{
+    .menu-btn img{
+        margin-left: 10px;
         height: 30px;
         cursor: pointer;
     }
-    .menue-btn p{
+    .menu-btn p{
         margin-left: 10px;
     }
     .nav-2{
-        padding: 2px;
+        padding: 9.2px;
     }
 }
 
 
 
 
-
+/* side bar menu starts here */
 
 .sidebar-menu{
+    z-index: 100;
     position: fixed;
     background-color: #1B98F5;
-    top: 130px;
-    bottom: 200px;
+    top: 100px;
+    bottom: 300px;
     left: 0;
     right: 0;
 
@@ -99,10 +135,18 @@ body{
 .close-btn{
     color: white;
     position: absolute;
-    margin-right: 15px;
     right: 0;
+    margin-right: 15px;
+    padding: 10px;
     cursor: pointer;
+    transition: background-color 0.15s;
 
+}
+.close-btn:hover{
+    background-color: #1b91eb;
+}
+.close-btn:active{
+    opacity: 0.8;
 }
 
 .sidebar-menu-list{
