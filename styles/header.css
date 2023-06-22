@@ -19,7 +19,7 @@
     height: 100px;
     margin-right: 25px;
 }
-.logo:hover{
+.logo img:hover{
     cursor: pointer;
 }
 .contact-info{
