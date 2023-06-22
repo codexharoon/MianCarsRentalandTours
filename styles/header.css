@@ -66,8 +66,8 @@
     .contact-info{
         white-space: nowrap;
     }
-    .social-links{
-        margin-top: 4px;
+    .contact-info p{
+        font-size: 14px;
     }
 }
 
@@ -135,7 +135,7 @@
 
 @media (max-width:430px){
     .nav-2{
-        top: 110px;
+        top: 100px;
     }
 }
 
@@ -189,5 +189,10 @@
 
 
 
+@media(max-width:430px){
+    .sidebar-menu{
+        bottom: 450px;
+    }
+}
 
   
