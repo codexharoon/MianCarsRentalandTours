@@ -36,7 +36,7 @@ address a{
     }
     .contact-us-info{
         border: none;
-        padding: 0;
+        padding: 10px;
     }
 }
 
