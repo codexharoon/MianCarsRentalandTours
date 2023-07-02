@@ -111,6 +111,9 @@
 .menu-btn{
     display: none;
 }
+.menu-btn-text{
+    font-size: 20px;
+}
 
 @media (max-width: 650px){
     .menu-list{
@@ -149,7 +152,7 @@
     position: fixed;
     background-color: #1B98F5;
     top: 100px;
-    bottom: 300px;
+    bottom: 200px;
     left: 0;
     right: 0;
 
