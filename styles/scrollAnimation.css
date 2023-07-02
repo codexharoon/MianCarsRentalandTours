@@ -1,0 +1,12 @@
+.reveal-ani{
+    position: relative;
+    transform: translateY(150px);
+    opacity: 0;
+
+    transition: all 1s ease;
+}
+
+.active-ani{
+    opacity: 1;
+    transform: translateY(0px);
+}
