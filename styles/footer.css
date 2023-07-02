@@ -5,20 +5,12 @@
     padding: 20px;
 }
 
-p a{
-    color: white;
+.footer p{
+    margin: 0;
+    margin-bottom: 5px;
 }
 
-.footer-fb-icon,.footer-insta-icon{
-    vertical-align: middle;
-    height: 20px;
-    margin-left: 10px;
-    margin-right: 10px;
-}
-
-.address{
-    margin-top: 10px;
-}
-.address a{
+.footer p a{
     color: white;
+    font-weight: bold;
 }
