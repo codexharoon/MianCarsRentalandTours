@@ -10,8 +10,8 @@ function reveal(){
         if( revealTop < windowHeight - revealPoint){
             revealSection.classList.add('active-ani');
         }
-        else{
-            revealSection.classList.remove('active-ani');
-        }
+        // else{
+        //     revealSection.classList.remove('active-ani');
+        // }
     });
 }
