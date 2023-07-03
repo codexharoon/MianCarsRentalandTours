@@ -7,38 +7,44 @@ const toursCardsInfo = [
         phone: '0300 4218333'
     },
     {
-        img: `IMGs/Tours/naran.jpg`,
+        img: `IMGs/Tours/hunza.jpg`,
         title: 'Hunza Valley Tour',
         pkg: 'Premium Tour Pakages',
         phone: '0300 4218333'
     },
     {
-        img: `IMGs/Tours/naran.jpg`,
+        img: `IMGs/Tours/swat.jpg`,
         title: 'Swat Valley Tour',
         pkg: 'Premium Tour Pakages',
         phone: '0300 4218333'
     },
     {
-        img: `IMGs/Tours/naran.jpg`,
+        img: `IMGs/Tours/muree.jpg`,
         title: 'Murree Galyat Tour',
         pkg: 'Premium Tour Pakages',
         phone: '0300 4218333'
     },
     {
-        img: `IMGs/Tours/naran.jpg`,
+        img: `IMGs/Tours/chitral.jpg`,
         title: 'Chitral Valley Tour',
         pkg: 'Premium Tour Pakages',
         phone: '0300 4218333'
     },
     {
-        img: `IMGs/Tours/naran.jpg`,
+        img: `IMGs/Tours/skardu.jpg`,
         title: 'Skardu Valley Tour',
         pkg: 'Premium Tour Pakages',
         phone: '0300 4218333'
     },
     {
-        img: `IMGs/Tours/naran.jpg`,
+        img: `IMGs/Tours/neelum.jpg`,
         title: 'Neelum Valley Tour',
+        pkg: 'Premium Tour Pakages',
+        phone: '0300 4218333'
+    },
+    {
+        img: `IMGs/Tours/custom.jpg`,
+        title: 'Custom Pakistan Tour',
         pkg: 'Premium Tour Pakages',
         phone: '0300 4218333'
     },
@@ -51,7 +57,7 @@ toursCardsInfo.forEach((card)=>{
         <div class="tours-cards">
 
             <div class="tours-cards-img">
-                <a href="tours.html"><img src="${card.img}" alt="${card.title}"></a>
+                <a href="tours.html"><img src="${card.img}" alt="${card.title}" loading="lazy"></a>
             </div>
 
             <div class="tours-cards-info">
