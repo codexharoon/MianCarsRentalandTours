@@ -5,12 +5,26 @@
     padding: 20px;
 }
 
-.footer p{
-    margin: 0;
-    margin-bottom: 5px;
+.footer-container{
+    margin-bottom: 15px;
 }
 
-.footer p a{
+.footer-pages a,.footer-outro a{
     color: white;
-    font-weight: bold;
+    margin-right: 10px;
+    text-decoration: none;
+}
+.footer-pages a:hover,.footer-outro a:hover{
+    text-decoration: underline;
+}
+
+
+.footer-social-links img{
+    height: 15px;
+}
+
+
+.footer-outro p{
+    margin: 0;
+    margin-bottom: 5px;
 }
