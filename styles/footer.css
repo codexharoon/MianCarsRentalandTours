@@ -9,18 +9,23 @@
     margin-bottom: 15px;
 }
 
-.footer-pages a,.footer-outro a{
+.footer-pages a{
     color: white;
     margin-right: 10px;
     text-decoration: none;
 }
-.footer-pages a:hover,.footer-outro a:hover{
+.footer-pages a:hover{
     text-decoration: underline;
+}
+
+.footer-outro a{
+    color: white;
 }
 
 
 .footer-social-links img{
     height: 15px;
+    vertical-align: top;
 }
 
 
