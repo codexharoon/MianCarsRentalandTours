@@ -35,7 +35,7 @@ function previousSlide(){
 
 
 // showSlide(currentSlide);
-// setInterval(nextSlide,4000);
+setInterval(nextSlide,4000);
 
 
 document.addEventListener('DOMContentLoaded',()=>{
