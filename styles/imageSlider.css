@@ -13,6 +13,7 @@
 .image-container{
     overflow: hidden;
     width: 800px;
+    /* width: auto; */
     height: 500px;
 
     position: relative;
@@ -56,4 +57,18 @@
 
 #next-btn{
     right: 10px;
+}
+
+
+
+@media(max-width:850px){
+    .image-container{
+        width: 500px;
+    }
+}
+
+@media(max-width:650px){
+    .image-container{
+        width: 380px;
+    }
 }
