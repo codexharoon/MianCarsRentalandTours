@@ -4,7 +4,7 @@ function reveal(){
     document.querySelectorAll('.reveal-ani').forEach((revealSection)=>{
         let windowHeight = window.innerHeight;
         let revealTop = revealSection.getBoundingClientRect().top;
-        let revealPoint = 150;
+        let revealPoint = 100;
 
 
         if( revealTop < windowHeight - revealPoint){
