@@ -23,11 +23,26 @@
     align-items: center;
     justify-content: center;
     padding: 10px;
+
+    background-color: #ffffffcc;
+    /* box-shadow: 2px 4px 5px rgba(0,0,0,0.2); */
 }
 
-.tours-cards-img img{
+.tours-cards-img{
     height: 200px;
     width: 300px;
+    overflow: hidden;
+}
+.tours-cards-img img{
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+    transition: all ease-out 1s;
+}
+
+.tours-cards-img img:hover{
+    scale: 1.2;
+    opacity: 0.7;
 }
 
 .tci-title{

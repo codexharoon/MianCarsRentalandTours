@@ -7,11 +7,18 @@ h4{
 }
 
 .tours-pkg-table{
-    margin: 20px;
+    margin: 20px auto;
 }
 
 .tours-pkg-table,th,td{
     border: 1px solid gray;
     padding: 10px;
     border-collapse: collapse;
+}
+
+
+@media(max-width:450px){
+    .tours-pkg-table{
+        margin: 20px 20px;
+    }
 }
