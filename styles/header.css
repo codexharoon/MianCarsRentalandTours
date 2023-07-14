@@ -116,7 +116,6 @@
 .menu-btn-text{
     font-size: 20px;
     margin-top: 6px;
-    
 }
 
 @media (max-width: 650px){
@@ -143,6 +142,9 @@
 @media (max-width:430px){
     .nav-2{
         top: 100px;
+    }
+    .menu-btn-text{
+        margin-top: 6px;
     }
 }
 
