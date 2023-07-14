@@ -63,6 +63,7 @@
     .logo{
         width: 40px;
         height: 40px;
+        margin-bottom: 0px;
     }
     .contact-info{
         white-space: nowrap;
@@ -80,7 +81,6 @@
 
 .nav-2{
     background-color: #1B98F5;
-    /* background: linear-gradient(to top right,#56CCF2,#2F80ED); */
     color: white;
     padding: 15px;
 
