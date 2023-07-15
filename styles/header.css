@@ -63,6 +63,7 @@
     .logo{
         width: 40px;
         height: 40px;
+        margin-top: -5px;
         margin-bottom: 0px;
     }
     .contact-info{

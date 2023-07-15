@@ -70,5 +70,12 @@
 @media(max-width:650px){
     .image-container{
         width: 380px;
+        height: 350px;
+    }
+}
+
+@media(max-width:450px){
+    .image-slider{
+        margin-top: 110px;
     }
 }

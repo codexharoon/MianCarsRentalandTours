@@ -15,6 +15,7 @@
     font-size: 16px;
     font-weight: bold;
     color: #1B98F5;
+    margin-bottom: 30px;
 }
 .services-t2{
     font-size: 30px;
@@ -66,5 +67,11 @@
     .services-cards{
         grid-template-columns: 1fr;
         row-gap: 30px;
+    }
+}
+
+@media(max-width:450px){
+    .services-container{
+        margin-top: 80px;
     }
 }

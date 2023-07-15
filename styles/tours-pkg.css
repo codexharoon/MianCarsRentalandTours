@@ -19,7 +19,7 @@ h4{
 }
 
 
-@media(max-width:450px){
+@media(max-width:650px){
     .tours-pkg-table{
         margin: 20px 20px;
     }
