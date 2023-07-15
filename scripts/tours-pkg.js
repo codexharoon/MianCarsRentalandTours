@@ -19,8 +19,8 @@ const toursPkgDetails = [
         r23:'Rs. 85,000',
 
         r31:'N/A',
-        r31:'N/A',
-        r31:'N/A'
+        r32:'N/A',
+        r33:'N/A'
 
     },
     {
@@ -51,8 +51,8 @@ const toursPkgDetails = [
         r23:'Rs. 75,000/-',
 
         r31:'N/A',
-        r31:'N/A',
-        r31:'N/A'
+        r32:'N/A',
+        r33:'N/A'
 
     },
     {
@@ -67,8 +67,8 @@ const toursPkgDetails = [
         r23:'Rs. 85,000/-',
 
         r31:'N/A',
-        r31:'N/A',
-        r31:'N/A'
+        r32:'N/A',
+        r33:'N/A'
 
     },
     {
@@ -83,8 +83,8 @@ const toursPkgDetails = [
         r23:'Rs. 125,000/-',
 
         r31:'N/A',
-        r31:'N/A',
-        r31:'N/A'
+        r32:'N/A',
+        r33:'N/A'
 
     },
     {
@@ -98,9 +98,9 @@ const toursPkgDetails = [
         r22:'Rs. 38,500/-',
         r23:'N/A',
 
-        r21:'10 Days Hunza+Skardu Couple Tour',
-        r31:'N/A',
-        r31:'Rs. 275,000/-'
+        r31:'10 Days Hunza+Skardu Couple Tour',
+        r32:'N/A',
+        r33:'Rs. 275,000/-'
 
     },
     {
@@ -115,8 +115,8 @@ const toursPkgDetails = [
         r23:'Rs. 85,000/-',
 
         r31:'N/A',
-        r31:'N/A',
-        r31:'N/A'
+        r32:'N/A',
+        r33:'N/A'
 
     },
     {
@@ -131,8 +131,8 @@ const toursPkgDetails = [
         r23:'Rs. 110,000/-',
 
         r31:'N/A',
-        r31:'N/A',
-        r31:'N/A'
+        r32:'N/A',
+        r33:'N/A'
 
     },
     {
@@ -182,6 +182,12 @@ toursPkgDetails.forEach((tourPkg)=>{
                         <td>${tourPkg.r21}</td>
                         <td>${tourPkg.r22}</td>
                         <td>${tourPkg.r23}</td>
+                    </tr>
+
+                    <tr>
+                        <td>${tourPkg.r31}</td>
+                        <td>${tourPkg.r32}</td>
+                        <td>${tourPkg.r33}</td>
                     </tr>
 
                 </tbody>
