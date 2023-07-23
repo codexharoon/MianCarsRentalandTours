@@ -1,0 +1,40 @@
+
+.car-rental-container{
+    margin: 40px auto;
+    padding: 10px;
+    text-align: center;
+    max-width: 971px;
+
+    background-image: url(../IMGs/asset\ 42.svg);
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-position: center;
+}
+
+.left{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.left h2{
+    font-weight: 700;
+}
+
+.left h3{
+    font-style: italic;
+}
+
+.left a{
+    margin-block: 10px;
+    background-color: #2294ed;
+    border-radius: 6px;
+    font-weight: 700;
+    color: white !important;
+    padding: 12px 24px;
+    box-shadow: 0 0 2px #577592;
+    transition: 0.2s ease-out;
+}
+.left a:hover{
+    background-color: #1d69a3;
+}
