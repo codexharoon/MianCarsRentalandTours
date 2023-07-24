@@ -52,6 +52,13 @@
     padding: 20px;
 
     box-shadow: 2px 2px 10px rgba(0,0,0,0.2);
+    transition: all 0.15s ease-out;
+}
+
+.s-cards:hover{
+    box-shadow: 1px 1px 8px #d4ecff;
+    background-color: #f9fdff;
+    transform: translateY(-2px);
 }
 
 .s-cards-info-t{

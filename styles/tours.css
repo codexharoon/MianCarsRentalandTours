@@ -25,8 +25,15 @@
     align-items: center;
     justify-content: center;
     padding: 10px;
+    box-shadow: 0 0 4px #d4ecff;
+    border-radius: 4px;
+    background-color: #fff;
+}
 
-    background-color: #ffffffcc;
+.tours-cards:hover{
+    box-shadow: 1px 1px 8px #d4ecff;
+    background-color: #f9fdff;
+    transform: translateY(-2px);
 }
 
 .tours-cards-img{
@@ -40,11 +47,13 @@
     width: 100%;
     object-fit: cover;
     transition: all ease-out 1s;
+    background-color: black;
+    filter: saturate(130%);
 }
 
 .tours-cards-img img:hover{
-    scale: 1.2;
-    opacity: 0.8;
+    scale: 1.05;
+    opacity: 0.9;
 }
 
 .tci-title{
